@@ -1,0 +1,98 @@
+body {
+  background: rgb(236,38,38);
+}
+a {
+  text-decoration: none;
+}
+.Logo {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card h4 {
+  margin-top: 10px;
+  color: black;
+}
+.haitatsusaki_no_onee-san_ga_kowa_sugiru {
+  width: 160px;
+  height: 260px;
+}
+.haitatsusaki_no_onee-san_ga_kowa_sugiru_haitatsusaki_no_onee-san_ga_kowa_sugiru {
+  width: 340px;
+  height: 460px;
+}
+.btn-back {
+  display: inline-block;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.detail h1 {
+  text-align: center;
+  color: black;
+}
+.detail h3 {
+  padding: 2px 20px;
+  color: black;
+}
+.chapter-list-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 20px;
+}
+.chapter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 16px;
+}
+
+.chapter-row:last-child {
+  border-bottom: none;
+}
+.chapter-row a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.chapter-row a:hover {
+  text-decoration: underline;
+}
+.chapter-row .info {
+  color: #888;
+  font-size: 14px;
+}
+.breadcrumb {
+  font-size: 14px;
+  color: #888;
+  margin: 20px;
+}
+
+.breadcrumb a {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
